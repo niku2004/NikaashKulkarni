@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-US">
+  <meta charset="utf-8">
   <head>
     <title>Homepage</title>
 
@@ -18,45 +18,36 @@
         color: red;
       }
 
-      ul {
-        list-style-type: none;
-        display: flex;
-        width: 636px;
+      .topnav {
+        overflow: hidden;
+        position: relative;
+        background-color: white;
+        border: 5px black solid;
+        width: 636;
         height: 62px;
-        margin: 43;
-        justify-content: center;
-        align-items: flex-start;
-        flex-shrink: 0;
-        border: 5px solid #000;
       }
 
-      li {
-        background: white;
+      .topnav li {
         float: left;
-        display: inline;
-        width: 159px;
-        height: 62px;
-        font-size: 24px;
-        font-family: Kobenhavn;
-        font-weight: 800;
-        word-wrap: break-word
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
       }
 
-      a {
-        display: block;
-        padding-top: 12px;
-        background: white;
+      .topnav li:hover {
+        background: black;
+        color: white;
       }
     </style>
   </head>
 
   <body>
+    <div class="header">
+    </div>
 
-    <div>
-      <!--Menu-->
-      <div>
-        
-      </div>
+    <div class="topnav">
       <ul>
         <li><a href="about.asp">About</a></li>
         <li><a href="portf.asp">Portfolio</a></li>
@@ -64,5 +55,6 @@
         <li><a href="contact.asp">Contact</a></li>
       </ul>
     </div>
+
   </body>
 </html>
