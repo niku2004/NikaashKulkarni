@@ -10,34 +10,28 @@
         background: linear-gradient(180deg, #000 0%, #A6A6A6 54.06%, #FFF 97.29%);
       }
 
-      h1 {
-        color: blue;
-      }
-
-      p {
-        color: red;
-      }
-
+      /* Style the top navigation bar */
       .topnav {
-        overflow: hidden;
-        position: relative;
         background-color: white;
         border: 5px black solid;
-        width: 636;
-        height: 62px;
+        margin-left: 43px;
+        width: 636px;
       }
 
+      /* Style the topnav links */
       .topnav li {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
+        display: inline;
+        background-color: white;
+        color: black;
+        text-align: left;
+        padding-top: 16px;
+        padding-bottom: 17px;
         text-decoration: none;
       }
 
+      /* Change color on hover */
       .topnav li:hover {
-        background: black;
+        background-color: black;
         color: white;
       }
     </style>
@@ -45,16 +39,17 @@
 
   <body>
     <div class="header">
+      <h1>My Website</h1>
+      <p>Resize the browser window to see the effect.</p>
     </div>
 
     <div class="topnav">
       <ul>
-        <li><a href="about.asp">About</a></li>
-        <li><a href="portf.asp">Portfolio</a></li>
-        <li><a href="resume.asp">Resume</a></li>
-        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </div>
-
   </body>
 </html>
