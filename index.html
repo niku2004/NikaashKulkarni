@@ -9,7 +9,9 @@
       body {
         background: linear-gradient(180deg, #000 0%, #A6A6A6 54.06%, #FFF 97.29%);
         margin-left: 43px;
-        margin-right: 43px
+        margin-right: 43px;
+        width: 1440px;
+        height: 1380px;
       }
 
       /*Text Styles*/
@@ -100,12 +102,14 @@
         position: relative;
         padding-left: 506;
         padding-right: 506;
-        position: relative
       }
 
+      .mylabels{
+        position: relative;
+      }
+      
       .mylabels ul {
         list-style-type: none;
-        position: relative;
       }
 
       .mylabels li {
@@ -114,6 +118,26 @@
         text-align: center;
         padding-left: 120
       }
+
+      .footer {
+        width: 1354;
+        height: 180;
+        background: white;
+        display: flex;
+        text-align: right;
+        border: 5px solid black;
+        position: relative;
+        bottom: -100px
+      }
+      
+      .footer ul{
+        float: right
+      }
+      
+      .footer img{
+        padding: 23
+      }
+      
     </style>
   </head>
 
@@ -131,7 +155,7 @@
 
     <div class="title">
       <h2>
-        Nikaash<br />Kulkarni
+        Nikaash<br>Kulkarni
       </h2>
     </div>
 
@@ -144,6 +168,17 @@
           <li>Artist</li>
         </ul>
       </h4>
+
+      <div class="footer">
+          <a href="https://imgur.com/GiyKunZ"><img src="https://i.imgur.com/GiyKunZ.png" title="source: imgur.com"></a>
+        
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
