@@ -8,8 +8,8 @@
     <style>
       body {
         background: linear-gradient(180deg, #000 0%, #A6A6A6 54.06%, #FFF 97.29%);
-        margin: 43px;
-        width: 1440px;
+        margin: 43px auto;
+        width: 1440;
         height: 1380px;
       }
 
@@ -121,18 +121,23 @@
       }
 
       .footer {
-        width: 100%;
+        width: 1354;
         height: 180;
-        display: inline-block;
+        display: inline-flex;
         background: white;
         border: 5px solid black;
         position: relative;
       }
 
-      .footer ul {}
+      .footer ul {
+        list-style-type: none;
+        position: relative;
+        top: -20px;
+        text-decoration: none
+      }
 
       .footer img {
-        padding: 25
+        padding: 25;
       }
     </style>
   </head>
@@ -169,19 +174,18 @@
           <li>Artist</li>
         </ul>
       </h4>
-
-      <div class="footer">
-        <img src="https://i.imgur.com/GiyKunZ.png" alt="biglogo">
-        <h5>
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </h5>
-
-      </div>
+    </div>
+    
+    <div class="footer">
+      <img src="https://i.imgur.com/GiyKunZ.png" alt="biglogo">
+      <h5>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </h5>
     </div>
   </body>
 </html>
